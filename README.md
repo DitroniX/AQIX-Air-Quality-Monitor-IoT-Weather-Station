@@ -21,6 +21,8 @@ Top Level Improvements from the CWX design includes:
 
 ![AQIX-ESPESP32C3-1U-N4-SDK 3D PROTO](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX-ESPESP32C3-1U-N4-SDK%20v1.2409.100-PROTO_PCA_top.png)
 
+![AQIX-ESPESP32C3-1U-N4-SDK PCB Bottom Side](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX-ESPESP32C3-1-N4-SDK%20v1.2409.100-PROTO_PCB_top.png)
+
 **AQIX Preliminary Features:**
 
 AQIX is a compact, self-contained CO2 Air Quality Sensor with the addition of a range of Barometric Weather Sensors.
