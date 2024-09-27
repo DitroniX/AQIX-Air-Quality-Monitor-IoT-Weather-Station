@@ -1,12 +1,12 @@
-**IBEM ESP32C3 IoT Battery Energy Monitor SDK**
+**Board: AQIX ESP32-C3 (Air Quality Monitor IoT Weather Station) SDK**
 
 ------------
 
-This folder contains IBEM Example Source Code.
+This folder contains AQIX Example Source Code.
 
   The purpose of the test code is to cycle through the various main functions of the board, as shown below, as part of board bring up testing.
 
-  PlatformIO code will automaticlaly load required libraries and configure board.   See platformio.ini for information,
+  PlatformIO code will automatically load required libraries and configure board.   See platformio.ini for information,
 
   Remember!
   - Set the BOARD to ESP32-C3 DEV MODULE (or similar).

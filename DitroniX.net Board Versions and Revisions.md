@@ -1,4 +1,4 @@
-
+  
 For various reasons, our boards may require update.  The below list contains any revision information summary.
 
 **Board: AQIX ESP32-C3 (Air Quality Monitor IoT Weather Station) SDK**
@@ -9,6 +9,7 @@ Features include MCU Espressif ESP32-C3 Mini | SCD41 | SCD42 | BME280 | SFH2440 
 - 1.2409-100 PROTO (Green PCA October 2024)
    
 **IBEM ESP32C3 SDK v1.00 Firmware Revisions**
+- WIP
 
 
 
