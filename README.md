@@ -1,6 +1,6 @@
 ## AQIX ESP32C3 (Air Quality Monitor IoT Weather Station) SDK  (NEW for October 2024)
 
-**Details to follow..  Preliminary AQIX Information**
+**Details to follow..  Preliminary AQIX Information**  **IN PRODUCTION October 2024**
 
 The AQIX SDK is a natural iteration of the original popular [CWX (Compact Weather Station).](https://github.com/DitroniX/CWX-Compact-Weather-Station)
 
