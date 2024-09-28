@@ -16,6 +16,7 @@ Top Level Improvements from the CWX design includes:
  - Added Dallas OneWire Interface
  - Added I2C External Interface
  - Improved Light Sensor
+ - On-Board 32.768 kHz XTAL for Real Time Clock
 
 ![AQIX-ESPESP32C3-1-N4-SDK 3D PROTO](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX-ESPESP32C3-1-N4-SDK%20v1.2409.100-PROTO_PCA_top.png)
 
