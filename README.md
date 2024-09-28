@@ -6,7 +6,7 @@ The AQIX SDK is a natural iteration of the original popular [CWX (Compact Weathe
 
 Top Level Improvements from the CWX design includes:
 
- - New ESP32-C1 MCU (replacing the ESP8266/ESP12S)
+ - New ESP32-C3 MCU (replacing the ESP8266/ESP12S)
  - Type C USB Interface
  - Improved LDO Current assisting any External Devices
  - On-Board ESP32-C3 D1 UART Interface
