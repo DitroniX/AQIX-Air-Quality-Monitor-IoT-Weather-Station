@@ -1,6 +1,6 @@
 ## AQIX ESP32C3 (Air Quality Monitor IoT Weather Station) SDK  (NEW for October 2024)
 
-**Details to follow..  Preliminary AQIX Information**
+**Details to follow..  Preliminary AQIX Information**  **IN PRODUCTION October 2024**
 
 The AQIX SDK is a natural iteration of the original popular [CWX (Compact Weather Station).](https://github.com/DitroniX/CWX-Compact-Weather-Station)
 
@@ -17,6 +17,12 @@ Top Level Improvements from the CWX design includes:
  - Added I2C External Interface
  - Improved Light Sensor
 
+![AQIX-ESPESP32C3-1-N4-SDK 3D PROTO](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX-ESPESP32C3-1-N4-SDK%20v1.2409.100-PROTO_PCA_top.png)
+
+![AQIX-ESPESP32C3-1U-N4-SDK 3D PROTO](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX-ESPESP32C3-1U-N4-SDK%20v1.2409.100-PROTO_PCA_top.png)
+
+![AQIX-ESPESP32C3-1U-N4-SDK PCB Bottom Side](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX-ESPESP32C3-1-N4-SDK%20v1.2409.100-PROTO_PCB_top.png)
+
 **AQIX Preliminary Features:**
 
 AQIX is a compact, self-contained CO2 Air Quality Sensor with the addition of a range of Barometric Weather Sensors.
@@ -27,7 +33,7 @@ Interface for programming, and development, is thought a standard Type C USB, in
 
 Using the provided I2C interface, an OLED display can be plugged directly into the board, if required, for local monitoring and status information.
 
-Opensource IBEM Firmware is provided on our GitHub, using the standard PlatformIO platform. This monitors Barometric Pressure, Temperature, Humidity, Light Level and CO2 Air Quality information, which can then be sent to your Home Automation, or cloud service, via provided MQTT or Domoticz etc., as standard.
+Opensource AQIX Firmware is provided on our GitHub, using the standard PlatformIO platform. This monitors Barometric Pressure, Temperature, Humidity, Light Level and CO2 Air Quality information, which can then be sent to your Home Automation, or cloud service, via provided MQTT or Domoticz etc., as standard.
 
 
 **AQIX Specification and Features**
