@@ -6,7 +6,9 @@ For various reasons, our boards may require update.  The below list contains any
 Features include MCU Espressif ESP32-C3 Mini | SCD41 | SCD42 | BME280 | SFH2440 | EEPROM AT24C64 | Battery Voltage Sensor | GPIO I2C OLED | USB Flashing Compatible CH340K | OneWire | I2C
 
 **Supported AQIX ESP32C3 PCA Revisions:**
+- 1.2409-101 PROTO (PCA October 2024)
 - 1.2409-100 PROTO (Green PCA October 2024)
+
    
 **IBEM ESP32C3 SDK v1.00 Firmware Revisions**
 - WIP
