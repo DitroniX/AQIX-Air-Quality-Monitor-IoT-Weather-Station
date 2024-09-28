@@ -19,6 +19,11 @@ This folder contains AQIX Example Source Code.
    Compilation Warnings
   Please ignore any compilation warnings as these currently relate to ESP32 v ESP32C3 library shortlfalls.  All should compile fine.
 
+Other Information
+[Arduino SCD4x Library](https://github.com/Sensirion/arduino-i2c-scd4x)
+[Arduino Snippets](https://github.com/Sensirion/arduino-snippets)
+[Sensitron BLE Gadget](https://github.com/Sensirion/arduino-ble-gadget/tree/master)
+[Sensirion Embedded I2C SCD4x Driver](https://github.com/Sensirion/embedded-i2c-scd4x)
 
 Further information can be found:
 
