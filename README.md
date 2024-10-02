@@ -4,6 +4,9 @@
 
 The AQIX SDK is a natural iteration of the original popular [CWX (Compact Weather Station).](https://github.com/DitroniX/CWX-Compact-Weather-Station)
 
+Compare the New CO2 Air Quality and Compact Weather Monitor SDK
+![Display-Type-B](https://github.com/DitroniX/DitroniX/blob/main/Files/DitroniX.net%20AQIX%20Air%20Quality%20CO2%20%20and%20CWX%20Weather%20Monitors%20Overview.png?raw=true)
+
 Top Level Improvements from the CWX design includes:
 
  - New ESP32-C3 MCU (replacing the ESP8266/ESP12S)
