@@ -4,6 +4,9 @@
 
 The AQIX SDK is a natural iteration of the original popular [CWX (Compact Weather Station).](https://github.com/DitroniX/CWX-Compact-Weather-Station)
 
+Compare the New CO2 Air Quality and Compact Weather Monitor SDK
+![Display-Type-B](https://github.com/DitroniX/DitroniX/blob/main/Files/DitroniX.net%20AQIX%20Air%20Quality%20CO2%20%20and%20CWX%20Weather%20Monitors%20Overview.png?raw=true)
+
 Top Level Improvements from the CWX design includes:
 
  - New ESP32-C3 MCU (replacing the ESP8266/ESP12S)
@@ -16,12 +19,13 @@ Top Level Improvements from the CWX design includes:
  - Added Dallas OneWire Interface
  - Added I2C External Interface
  - Improved Light Sensor
+ - On-Board 32.768 kHz XTAL for Real Time Clock
 
 ![AQIX-ESPESP32C3-1-N4-SDK 3D PROTO](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX-ESPESP32C3-1-N4-SDK%20v1.2409.100-PROTO_PCA_top.png)
 
 ![AQIX-ESPESP32C3-1U-N4-SDK 3D PROTO](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX-ESPESP32C3-1U-N4-SDK%20v1.2409.100-PROTO_PCA_top.png)
 
-![AQIX-ESPESP32C3-1U-N4-SDK PCB Bottom Side](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX-ESPESP32C3-1-N4-SDK%20v1.2409.100-PROTO_PCB_top.png)
+![AQIX-ESPESP32C3-1U-N4-SDK PCB Bottom Side](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX-ESPESP32C3-1-N4-SDK%20v1.2409.100-PROTO_PCA_bottom.png)
 
 **AQIX Preliminary Features:**
 
@@ -65,6 +69,7 @@ Opensource AQIX Firmware is provided on our GitHub, using the standard PlatformI
   - **Espressif ESP32-C3 Mini** - 2.4GHz Wi-Fi (802.11b/g/n) and Bluetooth 5
     - ESP32-C3-MINI-1-N4 *(PCB Antenna)*
     - ESP32-C3-MINI-1U-N4 *(External Antenna via U. FL cable)*
+    - On-Board 32.768 kHz XTAL for Real Time Clock 
 - **Type C Programming / Debug**
   - Type C USB Connector
   - CH340K USB UART 2Mbps Transceiver
