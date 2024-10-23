@@ -21,7 +21,10 @@ Top Level Improvements from the CWX design includes:
  - Improved Light Sensor
  - On-Board 32.768 kHz XTAL for Real Time Clock
 
-![AQIX-ESPESP32C3-1-N4-SDK 3D PROTO](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX-ESPESP32C3-1-N4-SDK%20v1.2409.100-PROTO_PCA_top.png)
+![AQIX-ESPESP32C3-1-N4-SDK](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX%20ESP32C3-1%20SDK%20Board.jpg)
+
+![AQIX-ESPESP32C3-1-N4-SDK-Kit](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX%20ESP32C3-1%20SDK%20Kit.jpg)
+
 
 ![AQIX-ESPESP32C3-1U-N4-SDK 3D PROTO](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX-ESPESP32C3-1U-N4-SDK%20v1.2409.100-PROTO_PCA_top.png)
 
@@ -108,6 +111,8 @@ Opensource AQIX Firmware is provided on our GitHub, using the standard PlatformI
   - 4 x M3 mounting holes
   - Operating Ambient Temperature -10 to +60 °C
   - Optional Conformal Coating – on request.
+ 
+
 
 ## **Further Information**
 
