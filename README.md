@@ -112,7 +112,10 @@ Opensource AQIX Firmware is provided on our GitHub, using the standard PlatformI
   - Operating Ambient Temperature -10 to +60 °C
   - Optional Conformal Coating – on request.
  
+## **Purchase**
+[![Display-Type-B](https://raw.githubusercontent.com/DitroniX/DitroniX/main/Files/DitroniX.net%20STEM%20IoT%20eBay.jpg?raw=true)](https://www.ebay.co.uk/usr/ditronixuk)
 
+Our STEM SDK boards and accessories are available from our online shops on [eBay](https://www.ebay.co.uk/usr/ditronixuk) 
 
 ## **Further Information**
 
