@@ -1,4 +1,4 @@
-**Board: AQIX ESP32-C3 (Air Quality Monitor IoT Weather Station) SDK**
+**Board: AQIX ESP32-C6 (Air Quality Monitor IoT Weather Station) SDK**
 
 ------------
 
@@ -9,7 +9,7 @@ This folder contains AQIX Example Source Code.
   PlatformIO code will automatically load required libraries and configure board.   See platformio.ini for information,
 
   Remember!
-  - Set the BOARD to ESP32-C3 DEV MODULE (or similar).
+  - Set the BOARD to ESP32-C6 DEV MODULE (or similar).
   - You may set the BAUD rate to 921600 to speed up flashing.
   - The SDK does NOT need external power to flash and will take Power from the USB 5V.
   
