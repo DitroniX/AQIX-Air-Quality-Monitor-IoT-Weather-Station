@@ -1,118 +1,138 @@
-## AQIX ESP32C3 (Air Quality Monitor IoT Weather Station) SDK  (NEW for October 2024)
+## AQIX ESP32-C6 (Air Quality Monitor IoT Weather Station) SDK
+**Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
-**Details to follow..  Preliminary AQIX Information**  **IN PRODUCTION October 2024**
+
+[![DitroniX WiKi Pages](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/GitHub%20WiKi.png?raw=true)](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/wiki)
+
+**New updated STEM Board for March 2026**
+
+**New version of AQIX released**
+
+![AQIX ESP32-C6](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX%20Features.png)
+
+## Updates
+
+-   26-02-15 - In Beta Development 
+-   26-02-15 - Project Update Launched
+
+
+**High Precision Digital Environmental Monitor Sensors.**
+
+The board has TWO Variants
+
+-   AQIX SCD40
+-   AQIX SCD41
+
+**Features**
+
+
+High Precision Digital Environmental Monitor Sensors.
+
+The **AQIX** board offers the following main features:
+
+-   **Espressif ESP32-C6**
+    -   WiFi, Bluetooth, Zigbee and Thread
+-   **Sensirion SCD40 or SCD41**
+    -   High Accuracy CO2 Sensor
+    -   [SCD40](https://sensirion.com/products/catalog/SCD40)  – 400 to 2000 ppm, Accuracy ±50.0 ppm ±5.0 %m.v (Home)
+    -   [SCD40](https://sensirion.com/products/catalog/SCD41)  – 400 to 5000 ppm, Accuracy ±50.0 ppm ±2.5 %m.v (Home, Office, Industry)
+-   **Bosch BME280**
+    -   High Precision Barometric Pressure, Relative Humidity and Temperature
+    -   **Barometric Pressure** 300…1100 hPa (millibar)
+        – Accuracy ±0.25%
+        – which is equivalent to 1m at 400m height change
+        – RMS Noise 0.2 Pa
+        – which is equivalent to 1.7 cm
+        – **Temperature** -40 to 85°C
+        – Temperature coefficient offset ±1.5Pa/K.
+        – which is equivalent to ±12.6cm at 1 °C temperature change
+        – **Humidity**
+        – 0 to 100 %
+        – Accuracy tolerance ±3% relative humidity
+        – Hysteresis ≤2% relative humidity
+-   **Ambient Light Sensor**
+    -   SFH2440, providing spectral sensitivity adapted to human eye sensitivity
+    -   Std. Light A; T = 2856 K Minimum 7 nA/lx
+    -   Spectral range of sensitivity λ10% typically 400 to 690 nm
+    -   Wavelength of max sensitivity λS max typically 620 nm
+    -   ESP32-C6 ADC provides light voltage reading
+-   **EEPROM P24C64C**
+    -   64Kbit storage
+    -   AT24C64 64Kbit
+    -   On-board Data Logging
+    -   On-board Parameters
+    -   Firmware setup user parameters and configuration
+-   **USB C**
+    -   With UART for easy programming and development
+    -   Board powering during development or use.
+    -   Type C USB Connector
+    -   CH340K USB UART 2Mbps Transceiver
+    -   Easy programming. Select ‘ESP32C3 Dev Module’
+    -   BAUD rate up to 921600 to speed up Flashing
+    -   Serial Monitoring Debug and Remote Logging
+    -   Power Can Be Taken from USB 5V (when Flashing).
+-   **FET Output**
+    -   External Relay or Sounder.
+    -   GPIO or PWM
+-   **OneWire (Dallas) Interface**
+    -   External Sensors such as Soil Temperature Probe (DS18S20)
+    -   Dallas OneWire Interface for External Temperatures
+-   **I2C Interface Display**
+    -   OLED Display
+    -   PCB 4 Pin Header Connector
+-   **I2C Interface Sensors**
+    -   External Sensors such as Soil Monitoring
+    -   PCB 4 Pin Header Connector
+-   **Buttons**
+    -   Reset
+    -   User (Program or GP9 Detect)
+-   **Battery Voltage Monitor**
+    -   ESP32-C6 ADC provides battery voltage reading
+-   **3V3 LDO**
+    -   AMS1117 LDO allowing use of external DC input 4.5V to 15V
+-   **LED**
+    -   RGB, Ext DC LED
+-   **Compact Design and Easy to Use**
+    -   Board Size63 x 51mm
+    -   4 x M3 mounting holes
+    -   Operating Ambient Temperature -10 to +60 °
+    -   Optional Conformal Coating – on request.
+    -   Designed to fit into a Waterproof Clear Cover Enclosure
+
+Power can be via external 5 to 15V DC, or using a CR123A 3V Lithium battery. CR123A Battery is not a rechargeable.
+
+This board could also be powered from a Solar Panel.
+
+
+**AQIX Flexibility:**
+
+AQIX is a compact, self-contained CO2 Air Quality Sensor with the addition of a range of Barometric Weather Sensors.
+
+Based on the new Espressif ESP32-C6 Mini, which has both Wi-Fi and BT, the AQIX SDK board is provided with onboard Battery Holder or External DC Input.
+
+Interface for programming, and development, is thought a standard Type C USB, into the onboard UART and ESP32-C6, so making development and use, completely self-contained.
+
+Using the provided I2C interface, an OLED display can be plugged directly into the board, if required, for local monitoring and status information.
+
+Opensource AQIX Firmware is provided on our GitHub, using the standard PlatformIO platform. This monitors Barometric Pressure, Temperature, Humidity, Light Level and CO2 Air Quality information, which can then be sent to your Home Automation, or cloud service, via provided MQTT or Domoticz etc., as standard.
+
+**Original AQIX ESP32-C3**
 
 The AQIX SDK is a natural iteration of the original popular [CWX (Compact Weather Station).](https://github.com/DitroniX/CWX-Compact-Weather-Station)
 
 Compare the New CO2 Air Quality and Compact Weather Monitor SDK
 ![Display-Type-B](https://github.com/DitroniX/DitroniX/blob/main/Files/DitroniX.net%20AQIX%20Air%20Quality%20CO2%20%20and%20CWX%20Weather%20Monitors%20Overview.png?raw=true)
 
-Top Level Improvements from the CWX design includes:
-
- - New ESP32-C3 MCU (replacing the ESP8266/ESP12S)
- - Type C USB Interface
- - Improved LDO Current assisting any External Devices
- - On-Board ESP32-C3 D1 UART Interface
- - On-Board EEPROM for Data Logging and Configuration
- - User Button
- - RGB LED
- - Added Dallas OneWire Interface
- - Added I2C External Interface
- - Improved Light Sensor
- - On-Board 32.768 kHz XTAL for Real Time Clock
-
-![AQIX-ESPESP32C3-1-N4-SDK](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX%20ESP32C3-1%20SDK%20Board.jpg)
-
-![AQIX-ESPESP32C3-1-N4-SDK-Kit](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX%20ESP32C3-1%20SDK%20Kit.jpg)
 
 
-![AQIX-ESPESP32C3-1U-N4-SDK 3D PROTO](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX-ESPESP32C3-1U-N4-SDK%20v1.2409.100-PROTO_PCA_top.png)
 
-![AQIX-ESPESP32C3-1U-N4-SDK PCB Bottom Side](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX-ESPESP32C3-1-N4-SDK%20v1.2409.100-PROTO_PCA_bottom.png)
-
-**AQIX Preliminary Features:**
-
-AQIX is a compact, self-contained CO2 Air Quality Sensor with the addition of a range of Barometric Weather Sensors.
-
-Based on the new Espressif ESP32C3 Mini, which has both Wi-Fi and BT, the AQIX SDK board is provided with onboard Battery Holder or External DC Input.
-
-Interface for programming, and development, is thought a standard Type C USB, into the onboard UART and ESP32C3, so making development and use, completely self-contained.
-
-Using the provided I2C interface, an OLED display can be plugged directly into the board, if required, for local monitoring and status information.
-
-Opensource AQIX Firmware is provided on our GitHub, using the standard PlatformIO platform. This monitors Barometric Pressure, Temperature, Humidity, Light Level and CO2 Air Quality information, which can then be sent to your Home Automation, or cloud service, via provided MQTT or Domoticz etc., as standard.
-
-
-**AQIX Specification and Features**
-
-- **Sensors Included**
-  - **High Accuracy CO2 Sensor**
-	  - SCD40 ±50 ppm + 5% of reading @400-2000 ppm
-	  - Optional SCD41 ±40 ppm + 5% of reading @400-5000 ppm
-  - **High Accuracy Barometric Sensor**
-		  - Bosch BME 280 Module, providing:
-		-   **Barometric Pressure**  300...1100 hPa (millibar)
-		    -   Accuracy ±0.25%
-	        -   which is equivalent to 1m at 400m height change
-		    -   RMS Noise 0.2 Pa
-		        -   which is equivalent to 1.7 cm
-		-   **Temperature**  -40 to 85°C
-		    -   Temperature coefficient offset ±1.5Pa/K.
-		        -   which is equivalent to ±12.6cm at 1 °C temperature change
-		-   **Humidity**
-			    -   0 to 100 %
-			    -   Accuracy tolerance ±3% relative humidity
-			    -   Hysteresis ≤2% relative humidity
-  - **Ambient Light Sensor**
-	  - SFH2440, providing spectral sensitivity adapted to human eye sensitivity
-	-   Std. Light A; T = 2856 K Minimum 7 nA/lx
-	-   Spectral range of sensitivity λ10% typically 400 to 690 nm
-	-   Wavelength of max sensitivity λS max typically 620 nm
-- **MCU**
-  - **Espressif ESP32-C3 Mini** - 2.4GHz Wi-Fi (802.11b/g/n) and Bluetooth 5
-    - ESP32-C3-MINI-1-N4 *(PCB Antenna)*
-    - ESP32-C3-MINI-1U-N4 *(External Antenna via U. FL cable)*
-    - On-Board 32.768 kHz XTAL for Real Time Clock 
-- **Type C Programming / Debug**
-  - Type C USB Connector
-  - CH340K USB UART 2Mbps Transceiver
-  - Easy programming.  Select ‘ESP32C3 Dev Module’
-  - BAUD rate up to 921600 to speed up Flashing
-  - Serial Monitoring Debug and Remote Logging
-  - Power Can Be Taken from USB 5V (when Flashing).
-- **EEPROM (I2C)**
-  - AT24C64 64Kbit
-  - On-board Data Logging
-  - On-board Parameters
-  - Firmware setup user parameters and configuration
-- **Battery or External DC Operation**
-	-   Powered by:
-	    -   1 x  **CR123**  Lithium battery
-	    - External DC such as USB 5V or 4.5 to 15V DC
-- **Battery Voltage Monitor**
-	 - ADC provides battery voltage reading
-- **External DC Input**
-	- AMS1117 LDO allowing use of external DC input 4.5V to 15V
-- **External Temperature**
-  - Dallas OneWire Interface for External Temperatures
-    - Example Probe Sensor for Greenhouse
-- **RGB LED - Status**
-  - Configured to three GPIO’s for easy Firmware control
-- **I2C OLED Connector**
-  - Configurable 3V3 Pin 1 and 2 polarities
-  - PCB 4 Pin Header Connector
-- **Buttons**
-  - Reset
-  - User (Program or GP9 Detect)
-- **Enclosure**
-  - Designed to fit into a Waterproof Clear Cover Enclosure
-- **Compact Design and Easy to Use**
-  - Compact PCB 63mm x 51mm
-  - 4 x M3 mounting holes
-  - Operating Ambient Temperature -10 to +60 °C
-  - Optional Conformal Coating – on request.
  
 ## **Purchase**
+
+Via our DitroniX.net [Shop](https://ditronix.net/shop/) 
+
+or this board will be added to eBay once in stock.
+
 [![Display-Type-B](https://raw.githubusercontent.com/DitroniX/DitroniX/main/Files/DitroniX.net%20STEM%20IoT%20eBay.jpg?raw=true)](https://www.ebay.co.uk/usr/ditronixuk)
 
 Our STEM SDK boards and accessories are available from our online shops on [eBay](https://www.ebay.co.uk/usr/ditronixuk) 
