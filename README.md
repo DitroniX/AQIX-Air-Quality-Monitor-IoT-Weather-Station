@@ -6,6 +6,8 @@
 
 **New updated STEM Board for March 2026**
 
+[**For Latest Project Updates - Click Here**](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station?tab=readme-ov-file#updates)
+
 **New version of AQIX released**
 
 ![AQIX ESP32-C6](https://github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIX%20Features.png)
