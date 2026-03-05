@@ -12,8 +12,9 @@
 
 ## Updates
 
--   26-02-15 - In Beta Development 
+-   26-02-15 - AQIX ESP32-C6 In Beta Development 
 -   26-02-15 - Project Update Launched
+-   24-09-24 - Original AQIX ESP32-C3 Version
 
 
 **High Precision Digital Environmental Monitor Sensors.**
