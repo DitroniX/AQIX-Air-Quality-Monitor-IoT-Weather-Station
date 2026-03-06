@@ -38,7 +38,7 @@ The **AQIX** board offers the following main features:
 -   **Sensirion SCD40 or SCD41**
     -   High Accuracy CO2 Sensor
     -   [SCD40](https://sensirion.com/products/catalog/SCD40)  – 400 to 2000 ppm, Accuracy ±50.0 ppm ±5.0 %m.v (Home)
-    -   [SCD40](https://sensirion.com/products/catalog/SCD41)  – 400 to 5000 ppm, Accuracy ±50.0 ppm ±2.5 %m.v (Home, Office, Industry)
+    -   [SCD41](https://sensirion.com/products/catalog/SCD41)  – 400 to 5000 ppm, Accuracy ±50.0 ppm ±2.5 %m.v (Home, Office, Industry)
 -   **Bosch BME280**
     -   High Precision Barometric Pressure, Relative Humidity and Temperature
     -   **Barometric Pressure** 300…1100 hPa (millibar)
