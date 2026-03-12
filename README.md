@@ -14,6 +14,7 @@
 
 ## Updates
 
+-   26-03-08 - Preproduction boards test complete.  Production in process.  
 -   26-03-02 - Preproduction boards in test.
 -   26-02-15 - AQIX ESP32-C6 In Beta Development 
 -   26-02-15 - Project Update Launched
