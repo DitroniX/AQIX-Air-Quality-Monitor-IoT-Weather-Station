@@ -1,4 +1,4 @@
-**Board: AQIX ESP32-C3 (Air Quality Monitor IoT Weather Station) SDK**
+**Board: AQIX ESP32-C6 (Air Quality Monitor IoT Weather Station) SDK**
 
 ------------
 
