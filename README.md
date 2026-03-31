@@ -1,4 +1,4 @@
-## AQIX ESP32-C6 (Air Quality Monitor IoT Weather Station) SDK
+## AQIX ESP32-C6 SCD40 SCD41 BME280 (Air Quality Monitor IoT Weather Station) SDK
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
 
